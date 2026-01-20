@@ -1,10 +1,12 @@
-BACKEND SETUP:
+###Backend setup:
+```bash
 npm install
 cp .env.example .env
 npm run db:init
 npm run db:seed
 npm run dev
 
-FRONTEND SETUP:
+###Frontend setup:
+```bash
 npm install
 npm run dev
